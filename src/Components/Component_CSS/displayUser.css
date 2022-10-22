@@ -1,0 +1,42 @@
+.table-col{
+    width: 30%;
+}
+
+.table-input{
+    width: 95%;
+    height: 3%;
+    border: none;
+    background-color: white;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:20px;   
+  }
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+#delete-button{
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px 8px;
+    border-radius: 8px;
+    margin: 6px 0;
+    color: white;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+.selected-row{
+    background-color: grey;
+}
